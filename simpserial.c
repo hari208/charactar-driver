@@ -8,9 +8,7 @@
 #include <linux/proc_fs.h>
 #include <asm/io.h>
 #include <linux/interrupt.h>
- #include <linux/sched.h>
-
-MODULE_AUTHOR("VAMSI TECH");
+ #include <linux/sched.h
 MODULE_LICENSE("GPL");
 
 static int myser_open(struct inode *inode, struct file *file);
